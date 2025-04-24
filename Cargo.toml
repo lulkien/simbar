@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+chrono = "0.4.40"
+fern = "0.7.1"
+libc = "0.2.172"
+log = "0.4.27"
+nix = { version = "0.29.0", features = ["process"] }
