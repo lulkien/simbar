@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 chrono = "0.4.40"
+dbus = { version = "0.9.7", features = ["vendored"] }
 fern = "0.7.1"
 libc = "0.2.172"
 log = "0.4.27"
